@@ -1,4 +1,13 @@
 MovieApp::Application.routes.draw do
+  resources :movie_reviews
+
+
+  resources :movies
+
+
+  resources :reviews
+
+
   resources :users
 
 
